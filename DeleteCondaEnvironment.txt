@@ -1,0 +1,9 @@
+#
+# Delete conda environment from CMD
+#
+
+# Example: deleting conda environment called "tensorflow35"
+
+conda env list 
+conda env remove --name tensorflow35
+conda env list
