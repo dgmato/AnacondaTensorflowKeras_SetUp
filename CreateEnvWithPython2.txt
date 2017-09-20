@@ -1,0 +1,10 @@
+conda create --name tensorflow_2 python=2.7
+activate tensorflow_2
+conda install jupyter
+conda install scipy 
+conda install spyder
+
+pip install matplotlib
+
+# Install open CV using binstar
+conda install -c menpo opencv
